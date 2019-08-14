@@ -1,0 +1,50 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(50, 50, 50);
+    padding: 0.5px;
+}
+
+h2{
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+h3{
+    font-size: 30px;
+    margin: 10px;
+}
+
+label{
+    padding: 10px;
+}
+
+body{
+    color:white;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+#btn{
+    font-size: 15px;
+    margin: 10px;
+}
+
+#loginTable{
+    margin-top: 30px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+#loginBody{
+    display: block;
+    float: center;
+    background-color: white;
+    color: black;
+}
