@@ -1,5 +1,5 @@
 function init(){
-    if(getCookie("pass") == "true") document.location="home.html";
+    if(getCookie("pass") == "true") document.location="https://wrobelwebsite.io/home.html";
 }
 
 function getCookie(cname) {
