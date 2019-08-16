@@ -1,0 +1,85 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(60, 60, 60);
+}
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: rgb(40, 114, 210);
+}
+.ch,
+.downloads{
+    float: left;
+    overflow: hidden;
+}
+.ch .chbtn,
+.downloads .downloadsbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+.navbar a:hover, 
+.ch:hover .chbtn,
+.downloads:hover .downloadsbtn {
+    background-color: rgb(40, 114, 210);
+}
+.ch-content,
+.downloads-content{
+    display: none;
+    position: inherit;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.ch-content a, 
+.downloads-content a {
+    float: none;
+    position: inherit;
+    background-color: rgb(50, 50, 50);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.ch-content a:hover, 
+.downloads-content a:hover {
+    background-color: rgb(39, 39, 150);
+}
+.ch:hover .ch-content,
+.downloads:hover .downloads-content {
+    display: block;
+}
+.downloads{
+    float: right;
+}
+
+body{
+    text-align: center;
+    color:white;
+    background-color: rgb(30, 30, 30);
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+#chapters{
+    background: rgb(40, 40, 210);
+}
+
+a {color:white;}
+a:visited {color:white;}
