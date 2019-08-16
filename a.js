@@ -22,7 +22,7 @@ function login(){
     var thing = document.getElementById("pwb").value;
     if(thing == "wrobelBio2"){
         document.cookie = "pass=true";
-        document.location = "home.html";
+        document.location = "https://wrobelwebsite.github.io/home.html";
     }
     else alert("Incorrect Password, Access Denied.");
 }
