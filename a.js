@@ -1,5 +1,5 @@
 function init(){
-    if(getCookie("pass") == "true") document.location="https://wrobelwebsite.io/home.html";
+    if(getCookie("pass") == "true") document.location="./home.html";
 }
 
 function getCookie(cname) {
@@ -22,7 +22,7 @@ function login(){
     var thing = document.getElementById("pwb").value;
     if(thing == "wrobelBio2"){
         document.cookie = "pass=true";
-        document.location = "https://wrobelwebsite.github.io/home.html";
+        document.location = "./home.html";
     }
     else alert("Incorrect Password, Access Denied.");
 }

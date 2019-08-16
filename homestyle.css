@@ -17,6 +17,7 @@
     font-family:'Roboto', sans-serif;
     width:70%;
     float:right;
+    text-align:center;
 }
 
 a{
@@ -25,7 +26,18 @@ a{
 }
 a:visited {color:white;}
 
-title{
-    background-color:rgb(230, 55, 55);
+#mainPanelTitle{
+    background-color:rgb(77, 51, 104);
     display:block;
+    color:white;
+    font-size: 32px;
+    padding:20px;
+}
+
+#sideTitle{
+    background-color:rgb(77, 51, 104);
+    display:block;
+    color:white;
+    padding:20px;
+    font-size: 32px;
 }
