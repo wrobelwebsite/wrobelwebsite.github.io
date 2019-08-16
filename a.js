@@ -1,5 +1,5 @@
 function init(){
-    if(getCookie("pass") == "true") document.location="./home.html";
+    if(getCookie("pass") == "") document.location="./index.html";
 }
 
 function getCookie(cname) {
