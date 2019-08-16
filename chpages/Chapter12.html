@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <script src="../loginCheck.js"></script>
+        <script>
+            function start(){
+                if(getCookie("pass") == "") document.location="login.html";
+            }
+        </script>
+
+        <title>Wrobel Biololgy II Class Book</title>
+    </head>
+
+    <body onload="start();">
+        <div class="navbar">
+            <a class="home" href="../index.html">Home</a>
+            <div class="ch">
+                <button class="chbtn">Sections<i class="fa fa-caret-down"></i></button>
+                <div class="ch-content">
+                    <a href="#sec12.1">Sec 12.1</a>
+                    <a href="#sec12.2">Sec 12.2</a>
+                    <a href="#sec12.3">Sec 12.3</a>
+                    <a href="#ch12review">Ch 12 Review</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="ch12" oncontextmenu="return false;">
+            <img id="sec12.1" src="../src/Ch12/Ch12-02.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-03.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-04.png" width="850" height="1000"/>
+    
+            <img id="sec12.2" src="../src/Ch12/Ch12-05.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-06.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-07.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-08.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-09.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-10.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-11.png" width="850" height="1000"/>
+    
+            <img id="sec12.3" src="../src/Ch12/Ch12-12.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-13.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-14.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-15.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-16.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-17.png" width="850" height="1000"/>
+
+            <img id="ch12review" src="../src/Ch12/Ch12-19.png" width="850" height="1000"/>
+            <img src="../src/Ch12/Ch12-20.png" width="850" height="1000"/>
+        </div>
+    </body>
+</html>
