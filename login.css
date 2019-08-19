@@ -10,6 +10,7 @@ header{
 h2{
     font-size: 20px;
     margin-left: 50px;
+    color:white;
 }
 
 h3{
@@ -36,7 +37,7 @@ body{
 #loginTable{
     margin-top: 30px;
     background-color: rgb(50, 50, 50);
-    color: white;
+    color:white;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -45,6 +46,6 @@ body{
 #loginBody{
     display: block;
     float: center;
-    background-color: white;
-    color: black;
+    background-color: rgb(80,80,80);
+    color: white;
 }

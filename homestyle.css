@@ -26,18 +26,63 @@ a{
 }
 a:visited {color:white;}
 
+.normalA{
+    color:white;
+}
+.normalA:visited{
+    color:white;
+}
+
 #mainPanelTitle{
-    background-color:rgb(77, 51, 104);
-    display:block;
+    background-color:rgb(50,50,50);
+    display: block;
     color:white;
     font-size: 32px;
     padding:20px;
+    margin-top:12px;
 }
 
 #sideTitle{
-    background-color:rgb(77, 51, 104);
+    background-color:blue;
     display:block;
     color:white;
     padding:20px;
     font-size: 32px;
+    margin:0%;
+}
+
+#announcementsBody{
+    display: block;
+    background-color: rgb(80,80,80);
+    color: white;
+}
+.announcements{
+    background-color: rgb(50, 50, 50);
+    color:white;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#bugReportsBody{
+    display: block;
+    background-color: rgb(80,80,80);
+    color: white;
+}
+.bugReports{
+    background-color: rgb(50, 50, 50);
+    color:white;
+    margin-top:30px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+}
+
+body{
+    background:white;
+    color:white;
+}
+
+th{
+    padding:10px;
 }
