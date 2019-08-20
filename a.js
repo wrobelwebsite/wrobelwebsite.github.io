@@ -2,6 +2,8 @@ function init(){
     if(getCookie("pass") == "") document.location="./index.html";
 }
 
+//Come on, I'm stupid, but not that stupid.
+
 function getCookie(cname) {
     var name = cname + "=";
     var decodedCookie = decodeURIComponent(document.cookie);
@@ -18,9 +20,11 @@ function getCookie(cname) {
     return "";
 }
 
+//Encrypted, buddy. Nice try though!
+
 function login(){
     var thing = document.getElementById("pwb").value;
-    if(thing == "wrobelBio2"){
+    if(thing == atob("d3JvYmVsQmlvMg==")){
         document.cookie = "pass=true";
         document.location = "./home.html";
     }
