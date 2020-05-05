@@ -17,8 +17,8 @@ last = input("Last Page: ")
 offset = 49
 first = int(first) + offset
 last = int(last) + offset
-images = convert_from_path("/home/john/Documents/Wrobel/bio2Book.pdf", first_page=first, last_page=last)
-path = "/Users/john/GitHub/wrobelwebsite.github.io/src/Ch%s" % chapter
+images = convert_from_path("/home/invisa/Documents/Wrobel/bio2Book.pdf", first_page=first, last_page=last)
+path = "/home/invisa/Documents/github/wrobelwebsite.github.io/src/Ch%s" % chapter
 
 if not os.path.isdir(path):
 	os.mkdir(path)

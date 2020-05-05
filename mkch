@@ -150,7 +150,7 @@ class HTML:
     
     def getChStr(self,folder):
         finalStr = ''
-        for i in range(len(folder.get_page_list())-1):
+        for i in range(len(folder.get_page_list())):
             if i < 10:
                 finalStr+='''            <img src="../src/Ch'''+folder.get_ch_num()+'''/Chapter'''+folder.get_ch_num()+'''BIO-0'''+str(i+1)+'''.png" width="850" height="1000"/>'''+'\n'
             else:
