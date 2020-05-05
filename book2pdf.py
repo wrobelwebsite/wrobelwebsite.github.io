@@ -23,7 +23,7 @@ path = "/Users/john/GitHub/wrobelwebsite.github.io/src/Ch%s" % chapter
 if not os.path.isdir(path):
 	os.mkdir(path)
 
-count = 1;
+count = 1
 for image in images:
 	if count > 10 : image.save(path+"/Chapter{}BIO-{}.png".format(chapter,count), "PNG")
 	else : image.save(path+"/Chapter{}BIO-0{}.png".format(chapter,count), "PNG")

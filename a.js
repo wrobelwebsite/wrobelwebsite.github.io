@@ -1,5 +1,5 @@
 function init(){
-    if(getCookie("pass") == "") document.location="../index.html";
+    if(getCookie("pass") == "") document.location="./index.html";
 }
 
 function getCookie(cname) {
@@ -18,7 +18,6 @@ function getCookie(cname) {
     return "";
 }
 
-//Encrypted, buddy. Nice try though!
 function login(){
     var thing = document.getElementById("pwb").value;
     if(thing == atob("d3JvYmVsQmlvMg==")){
